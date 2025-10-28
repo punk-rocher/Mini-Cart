@@ -1,32 +1,46 @@
-=== BlankSlate ===
+## Overview
 
-Contributors: bhadaway
-Donate link: https://opencollective.com/blankslate
-Theme link: https://opencollective.com/blankslate
-Tags: accessibility-ready, one-column, two-columns, custom-menu, featured-images, microformats, sticky-post, threaded-comments, translation-ready
-Requires at least: 5.2
-Tested up to: 6.8
-Stable tag: trunk
-License: GNU General Public License v3 or Later
-License URI: https://www.gnu.org/licenses/gpl.html
+This project is a custom mini e-commerce website built with WordPress and WooCommerce:
 
-== Description ==
+- Custom theme development from scratch using Blank Slate
+- Responsive design using Bootstrap 5
+- WooCommerce setup with 6 demo products
+- Custom single product page with ACF fields (`product_material` and `shipping_note`)
+- AJAX-enabled shop filters (Category & Price) with reset button
+- Newsletter signup form connected to a mock API with AJAX submission
+- Performance optimization via LiteSpeed Cache
+- Security enhanced with Wordfence, HTTPS, and secure AJAX calls
+- Fully responsive, modern design with header, footer, homepage, and My Account page
 
-YOU MAY DELETE THIS FILE AND ANY OTHER FILE(S) BEFORE STARTING YOUR PROJECT
+---
 
-BlankSlate is the definitive WordPress boilerplate starter theme. I've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability, with no intrusive visual CSS styles added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/webguyio/blankslate/issues. Thank you.
+# Features
 
-If you're creating your own theme or client project, open up all files and do a "Find and Replace All" on the word "blankslate" with your own project name.
+## Theme
 
-Learn about more ways to use BlankSlate and precautions to take at: https://blankslate.me/.
+- Custom lightweight theme
+- Bootstrap 5 based responsive layout
+- Modern header and footer styling
+- Homepage with Hero section and Featured Products section
 
-=== License ===
+## WooCommerce
 
-In its unchanged and original state:
+- Shop page with AJAX category & price filters
+- Single product page override with ACF fields
+- My Account page styled with Bootstrap
+- Cart, Checkout, and Account pages excluded from caching
 
-BlankSlate WordPress Theme 2011-2025
-BlankSlate is distributed under the terms of the GNU GPL
+### API Integration
 
-The BlankSlate theme package and all files contained within are distributed under the terms of the GNU GPL v3 or Later (https://www.gnu.org/licenses/gpl.html).
+- Newsletter form in footer
+- AJAX submission with nonce verification
+- Mock API endpoint: `https://jsonplaceholder.typicode.com/posts`
+- Dynamic success/error messages
 
-Once you've significantly changed the theme to build your own unique project, either for yourself or for a client under a different theme name (as is encouraged), you're entirely welcome to copyright and license that project as you see fit.
+### Performance & Security
+
+- LiteSpeed Cache for page/object caching, CSS/JS minification, lazy load
+- CSS/JS enqueued with `filemtime` for cache-busting
+- Wordfence plugin installed for firewall and malware protection
+- Secure AJAX calls, escaped outputs, sanitized inputs
+- HTTPS enabled
