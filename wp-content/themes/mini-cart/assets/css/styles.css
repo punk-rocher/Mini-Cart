@@ -8,6 +8,9 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.shopping-cart {
+  display: none !important;
+}
 /* ==================== HEADER STYLES ==================== */
 .navbar {
   background: #ffffff !important;
