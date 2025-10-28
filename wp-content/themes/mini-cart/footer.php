@@ -9,14 +9,16 @@
                 </p>
             </div>
 
-<div class="col-lg-4 text-center mb-4 mb-lg-0">
-    <h5 class="fw-semibold mb-3">Subscribe to our Newsletter</h5>
-    <form id="newsletter-form" class="newsletter-form d-flex flex-column flex-sm-row justify-content-center gap-2">
-        <input type="email" id="newsletter-email" class="form-control rounded-pill" placeholder="Enter your email" required>
-        <button type="submit" class="btn btn-primary rounded-pill px-4">Subscribe</button>
-    </form>
-    <div id="newsletter-message" class="mt-2 small"></div>
-</div>
+            <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                <h5 class="fw-semibold mb-3">Subscribe to our Newsletter</h5>
+                <form id="newsletter-form"
+                    class="newsletter-form d-flex flex-column flex-sm-row justify-content-center gap-2">
+                    <input type="email" id="newsletter-email" class="form-control rounded-pill"
+                        placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary rounded-pill px-4">Subscribe</button>
+                </form>
+                <div id="newsletter-message" class="mt-2 small"></div>
+            </div>
 
 
             <!-- Social Icons -->
